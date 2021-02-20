@@ -1,15 +1,16 @@
 <?php
 
-$severname ="localhost";
-$username ="root";
-$password ="";
-$dbname ="online_voting";
+$servername = "localhost";
+$username = "root";
+$password = "";
+$db = "onlinevoting";
 
-$conn = mysqli_connect($severname,$username,$password,$dbname);
-if($conn){
-  //echo "Connection OK";
+// Create connection
+$con = mysqli_connect($servername, $username, $password,$db);
+
+// Check connection
+if (!$con) {
+    die("Connection failed: " . mysqli_connect_error());
 }
-else{
-  echo "Connection Failed".mysqli_connect_error();
-}
- ?>
+
+?>

@@ -109,8 +109,26 @@ $vi=$_GET['voterid'];
 $pwd=$_GET['password'];
 $conpwd=$_GET['conpassword'];
 
+//$f_name = $_POST["f_name"];
+//$l_name = $_POST["l_name"];
+//$email = $_POST['email'];
+//$password = $_POST['password'];
+//$repassword = $_POST['repassword'];
+//$mobile = $_POST['mobile'];
+//$address1 = $_POST['address1'];
+//$address2 = $_POST['address2'];
 
-$query="insert into regesiter values ('$na','$cn','$an','$em','$vi','$pwd','$conpwd')";
+
+$query="insert into user_info values ('$na','$cn','$an','$em','$vi','$pwd','$conpwd')";
+
+
+//$query = "INSERT INTO `user_info`
+//		(`user_id`, `first_name`, `last_name`, `email`,
+//		`password`, `mobile`, `address1`, `address2`)
+//		VALUES (NULL, '$f_name', '$l_name', '$email',
+//		'$password', '$mobile', '$address1', '$address2')";
+
+
 $data =mysqli_query($conn,$query);
 if($data){
   echo "Data inserted into Databse";
