@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <link href="design.css" rel="stylesheet" type="text/css">
+  <link href="css/design.css" rel="stylesheet" type="text/css">
   </head>
   <body>
   </div>
@@ -23,7 +23,7 @@
 
 <style>
 body{
-  background-image: url(user.jpg);
+  background-image: url(img/user.jpg);
   background-size: cover;
   color: white;
 }

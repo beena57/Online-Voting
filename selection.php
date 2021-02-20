@@ -7,7 +7,7 @@
 </head>
 <style>
 body{
-  background-image: url(annie-spratt-xTaOPMa6wAE-unsplash.jpg);
+  background-image: url(img/annie-spratt-xTaOPMa6wAE-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }

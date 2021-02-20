@@ -48,7 +48,7 @@ error_reporting(0);
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background: url(user.jpg) no-repeat;
+    background: url(img/user.jpg) no-repeat;
     background-size: cover;
   }
   .register-box{

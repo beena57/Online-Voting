@@ -4,7 +4,7 @@
 <title>ONLINE VOTING SYSTEM</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<link href="design.css" rel="stylesheet" type="text/css">
+<link href="css/design.css" rel="stylesheet" type="text/css">
 </head>
 <body>
   <header id="header" class="hoc clear">
@@ -46,7 +46,7 @@
 <br></blockquote>
 <style>
 body{
-  background-image: url("logo.png");
+  background-image: url("img/logo.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 530px 300px;

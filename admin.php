@@ -4,7 +4,7 @@
 <title>Admin</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<link rel="stylesheet" href="admin.css">
+<link rel="stylesheet" href="css/admin.css">
 <body>
   <div class="admin-box">
     <h1>Admin Panel</h1>
